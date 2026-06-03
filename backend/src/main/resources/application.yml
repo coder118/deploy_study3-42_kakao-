@@ -48,8 +48,8 @@ spring:
       client:
         registration:
           kakao:
-            client-id: 83647a9443618ddefc65ba8b2b43e464
-            client-secret: cNGz2DMZEWeAtia9bXIUo2WSL4MMQ0Ni
+            client-id: 0b74c85a854ef1062d3f1b82aa40ae0d
+            client-secret: ixKxht33jBx61ppPnYpoyqBmePfrPNgt
             client-authentication-method: client_secret_post
             scope: profile_nickname, profile_image
             client-name: Kakao
@@ -78,7 +78,7 @@ springdoc:
 custom:
   appName: testApp
   prod:
-    domain: test-app.shop
+    domain: app.ewqr.shop
     backUrl: "https://api.${custom.prod.domain}"
     frontUrl: "https://www.${custom.prod.domain}"
 
@@ -94,5 +94,6 @@ custom:
 
   jwt:
     expire-seconds: "#{60 * 30}"
+    secret-key: adjfowef23fjav239rufjaisovaprf23/afdw
   genFile:
     dirPath: c:/temp/glog_dev
