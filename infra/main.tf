@@ -239,7 +239,7 @@ defaults
 
 frontend http_front
     bind *:80
-    acl host_app1 hdr_beg(host) -i api.app4.qwas.shop
+    acl host_app1 hdr_beg(host) -i api.app.ewqr.shop
 
     use_backend http_back_1 if host_app1
 
